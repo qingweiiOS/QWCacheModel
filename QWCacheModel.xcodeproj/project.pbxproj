@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		4D1B31371E0E52DF003E7869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B31361E0E52DF003E7869 /* main.m */; };
 		4D1B313A1E0E52DF003E7869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B31391E0E52DF003E7869 /* AppDelegate.m */; };
-		4D1B313D1E0E52DF003E7869 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B313C1E0E52DF003E7869 /* ViewController.m */; };
 		4D1B31401E0E52DF003E7869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B313E1E0E52DF003E7869 /* Main.storyboard */; };
 		4D1B31421E0E52DF003E7869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B31411E0E52DF003E7869 /* Assets.xcassets */; };
 		4D1B31451E0E52DF003E7869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B31431E0E52DF003E7869 /* LaunchScreen.storyboard */; };
+		4D1B314E1E0E5433003E7869 /* QWHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B314D1E0E5433003E7869 /* QWHotViewController.m */; };
+		4D1B31541E0E545D003E7869 /* QWLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B31531E0E545D003E7869 /* QWLiveModel.m */; };
+		4D1B31581E0E5482003E7869 /* QWCoverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B31561E0E5482003E7869 /* QWCoverTableViewCell.m */; };
+		4D1B31591E0E5482003E7869 /* QWCoverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B31571E0E5482003E7869 /* QWCoverTableViewCell.xib */; };
+		4D1B315C1E0E54A7003E7869 /* MainNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B315B1E0E54A7003E7869 /* MainNetWork.m */; };
+		4D1B315F1E0E54F0003E7869 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B315E1E0E54F0003E7869 /* UIView+Extension.m */; };
+		4D1B31631E0E557A003E7869 /* QWNetWokHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B31621E0E557A003E7869 /* QWNetWokHelper.m */; };
+		4D1B31661E0E55A2003E7869 /* QWCommonlyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B31651E0E55A2003E7869 /* QWCommonlyConst.m */; };
+		4D1B316A1E0E5DA6003E7869 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B31691E0E5DA6003E7869 /* ReadMe.txt */; };
+		510E50638C0A5F03F51FEB66 /* libPods-QWCacheModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27391456520F1D178CEE636F /* libPods-QWCacheModel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16F770C10E74067756D40AF4 /* Pods-QWCacheModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWCacheModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-QWCacheModel/Pods-QWCacheModel.release.xcconfig"; sourceTree = "<group>"; };
+		27391456520F1D178CEE636F /* libPods-QWCacheModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWCacheModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1B31321E0E52DF003E7869 /* QWCacheModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QWCacheModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1B31361E0E52DF003E7869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D1B31381E0E52DF003E7869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D1B31391E0E52DF003E7869 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4D1B313B1E0E52DF003E7869 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4D1B313C1E0E52DF003E7869 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D1B313F1E0E52DF003E7869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D1B31411E0E52DF003E7869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1B31441E0E52DF003E7869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1B31461E0E52DF003E7869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1B314C1E0E5433003E7869 /* QWHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWHotViewController.h; sourceTree = "<group>"; };
+		4D1B314D1E0E5433003E7869 /* QWHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWHotViewController.m; sourceTree = "<group>"; };
+		4D1B31521E0E545D003E7869 /* QWLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWLiveModel.h; sourceTree = "<group>"; };
+		4D1B31531E0E545D003E7869 /* QWLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWLiveModel.m; sourceTree = "<group>"; };
+		4D1B31551E0E5482003E7869 /* QWCoverTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWCoverTableViewCell.h; sourceTree = "<group>"; };
+		4D1B31561E0E5482003E7869 /* QWCoverTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWCoverTableViewCell.m; sourceTree = "<group>"; };
+		4D1B31571E0E5482003E7869 /* QWCoverTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QWCoverTableViewCell.xib; sourceTree = "<group>"; };
+		4D1B315A1E0E54A7003E7869 /* MainNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNetWork.h; sourceTree = "<group>"; };
+		4D1B315B1E0E54A7003E7869 /* MainNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNetWork.m; sourceTree = "<group>"; };
+		4D1B315D1E0E54F0003E7869 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		4D1B315E1E0E54F0003E7869 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		4D1B31611E0E557A003E7869 /* QWNetWokHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWNetWokHelper.h; sourceTree = "<group>"; };
+		4D1B31621E0E557A003E7869 /* QWNetWokHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWNetWokHelper.m; sourceTree = "<group>"; };
+		4D1B31641E0E55A2003E7869 /* QWCommonlyConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWCommonlyConst.h; sourceTree = "<group>"; };
+		4D1B31651E0E55A2003E7869 /* QWCommonlyConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWCommonlyConst.m; sourceTree = "<group>"; };
+		4D1B31691E0E5DA6003E7869 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		AA6E54921DE1CDB1CD03F791 /* Pods-QWCacheModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWCacheModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QWCacheModel/Pods-QWCacheModel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510E50638C0A5F03F51FEB66 /* libPods-QWCacheModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDC338799282D1130079F72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E54921DE1CDB1CD03F791 /* Pods-QWCacheModel.debug.xcconfig */,
+				16F770C10E74067756D40AF4 /* Pods-QWCacheModel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4D1B31291E0E52DF003E7869 = {
 			isa = PBXGroup;
 			children = (
 				4D1B31341E0E52DF003E7869 /* QWCacheModel */,
 				4D1B31331E0E52DF003E7869 /* Products */,
+				0BDC338799282D1130079F72 /* Pods */,
+				59E7416355F84AA0BA1686C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +96,12 @@
 		4D1B31341E0E52DF003E7869 /* QWCacheModel */ = {
 			isa = PBXGroup;
 			children = (
-				4D1B31381E0E52DF003E7869 /* AppDelegate.h */,
-				4D1B31391E0E52DF003E7869 /* AppDelegate.m */,
-				4D1B313B1E0E52DF003E7869 /* ViewController.h */,
-				4D1B313C1E0E52DF003E7869 /* ViewController.m */,
-				4D1B313E1E0E52DF003E7869 /* Main.storyboard */,
-				4D1B31411E0E52DF003E7869 /* Assets.xcassets */,
-				4D1B31431E0E52DF003E7869 /* LaunchScreen.storyboard */,
-				4D1B31461E0E52DF003E7869 /* Info.plist */,
+				4D1B31671E0E5672003E7869 /* Other */,
+				4D1B31601E0E54F4003E7869 /* Extension */,
+				4D1B31681E0E568B003E7869 /* ViewModel */,
+				4D1B31511E0E5443003E7869 /* Controller */,
+				4D1B31501E0E543F003E7869 /* View */,
+				4D1B314F1E0E5436003E7869 /* Model */,
 				4D1B31351E0E52DF003E7869 /* Supporting Files */,
 			);
 			path = QWCacheModel;
@@ -74,9 +110,81 @@
 		4D1B31351E0E52DF003E7869 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D1B31381E0E52DF003E7869 /* AppDelegate.h */,
+				4D1B31391E0E52DF003E7869 /* AppDelegate.m */,
+				4D1B313E1E0E52DF003E7869 /* Main.storyboard */,
+				4D1B31411E0E52DF003E7869 /* Assets.xcassets */,
+				4D1B31431E0E52DF003E7869 /* LaunchScreen.storyboard */,
+				4D1B31461E0E52DF003E7869 /* Info.plist */,
 				4D1B31361E0E52DF003E7869 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D1B314F1E0E5436003E7869 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B31521E0E545D003E7869 /* QWLiveModel.h */,
+				4D1B31531E0E545D003E7869 /* QWLiveModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4D1B31501E0E543F003E7869 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B31551E0E5482003E7869 /* QWCoverTableViewCell.h */,
+				4D1B31561E0E5482003E7869 /* QWCoverTableViewCell.m */,
+				4D1B31571E0E5482003E7869 /* QWCoverTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4D1B31511E0E5443003E7869 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B314C1E0E5433003E7869 /* QWHotViewController.h */,
+				4D1B314D1E0E5433003E7869 /* QWHotViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4D1B31601E0E54F4003E7869 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B315D1E0E54F0003E7869 /* UIView+Extension.h */,
+				4D1B315E1E0E54F0003E7869 /* UIView+Extension.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		4D1B31671E0E5672003E7869 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B31641E0E55A2003E7869 /* QWCommonlyConst.h */,
+				4D1B31651E0E55A2003E7869 /* QWCommonlyConst.m */,
+				4D1B31611E0E557A003E7869 /* QWNetWokHelper.h */,
+				4D1B31621E0E557A003E7869 /* QWNetWokHelper.m */,
+				4D1B31691E0E5DA6003E7869 /* ReadMe.txt */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		4D1B31681E0E568B003E7869 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B315A1E0E54A7003E7869 /* MainNetWork.h */,
+				4D1B315B1E0E54A7003E7869 /* MainNetWork.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		59E7416355F84AA0BA1686C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27391456520F1D178CEE636F /* libPods-QWCacheModel.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D1B31491E0E52DF003E7869 /* Build configuration list for PBXNativeTarget "QWCacheModel" */;
 			buildPhases = (
+				5F3630A810E5FC5781A8CCF6 /* [CP] Check Pods Manifest.lock */,
 				4D1B312E1E0E52DF003E7869 /* Sources */,
 				4D1B312F1E0E52DF003E7869 /* Frameworks */,
 				4D1B31301E0E52DF003E7869 /* Resources */,
+				C70961708A2F63473CA1517F /* [CP] Embed Pods Frameworks */,
+				619EBF20B4AC168488EBC504 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,18 +252,74 @@
 				4D1B31451E0E52DF003E7869 /* LaunchScreen.storyboard in Resources */,
 				4D1B31421E0E52DF003E7869 /* Assets.xcassets in Resources */,
 				4D1B31401E0E52DF003E7869 /* Main.storyboard in Resources */,
+				4D1B316A1E0E5DA6003E7869 /* ReadMe.txt in Resources */,
+				4D1B31591E0E5482003E7869 /* QWCoverTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F3630A810E5FC5781A8CCF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		619EBF20B4AC168488EBC504 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QWCacheModel/Pods-QWCacheModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C70961708A2F63473CA1517F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QWCacheModel/Pods-QWCacheModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D1B312E1E0E52DF003E7869 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1B313D1E0E52DF003E7869 /* ViewController.m in Sources */,
+				4D1B315C1E0E54A7003E7869 /* MainNetWork.m in Sources */,
+				4D1B31581E0E5482003E7869 /* QWCoverTableViewCell.m in Sources */,
 				4D1B313A1E0E52DF003E7869 /* AppDelegate.m in Sources */,
+				4D1B314E1E0E5433003E7869 /* QWHotViewController.m in Sources */,
+				4D1B31541E0E545D003E7869 /* QWLiveModel.m in Sources */,
+				4D1B315F1E0E54F0003E7869 /* UIView+Extension.m in Sources */,
+				4D1B31661E0E55A2003E7869 /* QWCommonlyConst.m in Sources */,
+				4D1B31631E0E557A003E7869 /* QWNetWokHelper.m in Sources */,
 				4D1B31371E0E52DF003E7869 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +436,7 @@
 		};
 		4D1B314A1E0E52DF003E7869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6E54921DE1CDB1CD03F791 /* Pods-QWCacheModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GTMB342TR8;
@@ -281,6 +449,7 @@
 		};
 		4D1B314B1E0E52DF003E7869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F770C10E74067756D40AF4 /* Pods-QWCacheModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GTMB342TR8;
@@ -310,6 +479,7 @@
 				4D1B314B1E0E52DF003E7869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
